@@ -183,5 +183,5 @@ const monthsNames = [
 function formatDate(dateString) {
   let date = new Date(dateString);
 
-  return `${date.getDate()} ${monthsNames[date.getMonth()]}`;
+  return `${date.getDate()} ${monthsNames[date.getMonth()]} ${date.getFullYear()}`;
 }
